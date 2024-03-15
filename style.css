@@ -1,5 +1,129 @@
-<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+*{
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+}
+
+body {
+  background-color: hsla(49, 100%, 72%, 0.938);
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+
+
+}
+
+.chal {
+  height: 50%;
+  width: 100%;
+  background: #fff;
+  /* display: block; */
+  display: flex;
+  /* position: relative; */
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.inner {
+  background-color: rgba(61, 22, 236, 0.733);
+  /* display: inline; */
+  /* height: 10px; */
+  /* width: 20px; */
+  padding: 30px;
+  /* position: absolute;
+  float: left;
+  right: ; */
+
+}
+
+.inner-1 {
+  background-color: rgba(16, 230, 87, 0.733);
+  /* display: inline; */
+  /* height: 10px; */
+  /* width: 20px; */
+  padding: 30px;
+  /* position: absolute;
+  right: ; */
+}
+
+.inner-2 {
+  background-color: rgba(226, 12, 137, 0.733);
+  /* display: inline; */
+  /* height: 10px; */
+  /* width: 20px; */
+  padding: 30px;
+  /* position: absolute;
+  right: ; */
+}
+
+.attribution {
+
+  /* align-items: center; */
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  /* box-shadow: #000 #000 10px inset; */
+}
+
+.Chali {
+  /* display: flex; */
+  /* align-items: left; */
+
+  /* flex-direction: column; */
+/* margin-bottom: 39px; */
+}
+
+span {
+ /* margin: 20px; */
+  background-color: hsla(49, 100%, 72%, 0.938);
+  padding: 2px;
+  font-weight: 800;
+}
+
+.img1 {
+  max-width: 40px;
+  /* height: auto; */
+  /* border-radius: 50%; */
+}
+
+.attribution {
+  /* margin-top: 20px;
+  font-size: 12px; */
+
+}
+.imgContainer{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 
+p {
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  top: 0;
+  left: 0;
+} */
+
+/* pseudo code*/
+
+h2::selection {
+  background-color: hsla(49, 100%, 72%, 0.938);
+}
