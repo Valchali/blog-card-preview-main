@@ -27,6 +27,7 @@ body {
   border-radius: 10px;
   border: 1px solid black;
   display: flex;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
 }
 
 
@@ -40,12 +41,14 @@ span {
 .img1 {
   max-width: 50px;
   height: auto; 
+  
 }
 
 .imgContainer{
   display: flex;
   gap: 10px;
   align-items: center;
+  
 }
 
 .text{
@@ -59,8 +62,8 @@ span {
 
 /* pseudo code*/
 
-h2::selection {
-  background-color: hsla(49, 100%, 72%, 0.938);
+h2:hover {
+  color: hsla(49, 100%, 72%, 0.938);
 }
 
 /* Responsive style */
