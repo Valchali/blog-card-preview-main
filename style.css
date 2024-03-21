@@ -17,6 +17,7 @@ body {
   display: relative;
 }
 
+
 .container {
   background-color: white;
   display: flex;
@@ -28,8 +29,8 @@ body {
   border: 1px solid black;
   display: flex;
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+  border-radius: 19px 19px 19px 19px;
 }
-
 
 span {
  /* margin: 20px; */
