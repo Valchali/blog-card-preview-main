@@ -45,6 +45,10 @@ span {
   
 }
 
+.class img {
+  border-radius: 19px 19px 19px 19px;
+}
+
 .imgContainer{
   display: flex;
   gap: 10px;
