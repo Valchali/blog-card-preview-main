@@ -35,8 +35,10 @@ body {
 span {
  /* margin: 20px; */
   background-color: hsla(49, 100%, 72%, 0.938);
-  padding: 0;
+  margin-top: 10px;
+  padding: 0px;
   font-weight: 800;
+
 }
 
 .img1 {
