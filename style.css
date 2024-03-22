@@ -48,7 +48,7 @@ span {
 }
 
 .class img {
-  border-radius: 18px 18px 18px 18px;
+  border-radius: 19px 19px 19px 19px;
 }
 
 .imgContainer{
@@ -68,9 +68,9 @@ span {
 
 
 /* pseudo code*/
-
 h2:hover {
   color: hsla(49, 100%, 72%, 0.938);
+cursor: pointer;
 }
 
 /* Responsive style */
